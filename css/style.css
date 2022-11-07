@@ -13,10 +13,10 @@ main{
 }
 #titolo{
     font-size: 50px;
+    margin-bottom: -20px;
 }
 
 #sottotitolo {
-    margin-top: -40px;
     color: gray;
     font-size: 20px;
 }
@@ -32,6 +32,23 @@ main{
 #descrizione{
     font-size: 12px;
 }
-.lorem{
+.evidenziato{
     background-color: yellow;
 }
+
+thead{
+    background-color: blue;
+    color: white;
+}
+.Lorem{
+    background-color: aqua;
+}
+#footer{
+    margin-top: 40px;
+    color: rgb(128, 128, 128);
+}
+.uno{
+  
+    
+}
+
