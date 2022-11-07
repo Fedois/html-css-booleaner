@@ -1,0 +1,31 @@
+body{
+    margin: 0
+}
+
+.pattern {
+    background-image: url('../img/pattern.png');
+    background-color: rgba(0, 162, 255, 0.7);
+    height: 170px;
+}
+main{
+    margin: auto;
+    width: 80%;
+}
+#titolo{
+    font-size: 50px;
+}
+
+#sottotitolo {
+    margin-top: -40px;
+    color: gray;
+    font-size: 20px;
+}
+#boolean{
+    color: rgba(0, 162, 255, 0.7);
+
+    
+}
+#data{
+    font-size: 13px;
+    color: grey;
+}
