@@ -35,6 +35,9 @@ main{
 .evidenziato{
     background-color: yellow;
 }
+table{
+    font-weight: bold;
+}
 
 thead{
     background-color: blue;
@@ -46,9 +49,23 @@ thead{
 #footer{
     margin-top: 40px;
     color: rgb(128, 128, 128);
+    font-weight: bold;
+}
+.monitor{
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
 }
 .uno{
-  
-    
+    background-image: url('../img/graph.jpg');
+}
+.due{
+    background-image: url('../img/monitor.jpg');
+}
+#titolo-monitor{
+    margin-top: 30px;
 }
 
