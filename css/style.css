@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0
 }
 
@@ -7,22 +7,21 @@ body{
     background-color: rgba(0, 162, 255, 0.7);
     height: 170px;
 }
-main{
-    margin: auto;
-    width: 80%;
-}
-#titolo{
-    font-size: 50px;
-    margin-bottom: -20px;
+.logo{
+    margin-top: 100px;
+    height: 50px;
 }
 
-#sottotitolo {
+.titolo{
+    font-size: 50px;
+}
+
+.sottotitolo {
     color: gray;
     font-size: 20px;
 }
 #boolean{
     color: rgba(0, 162, 255, 0.7);
-
     
 }
 #data{
@@ -31,6 +30,10 @@ main{
 }
 #descrizione{
     font-size: 12px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .evidenziato{
     background-color: yellow;
@@ -46,8 +49,9 @@ thead{
 .Lorem{
     background-color: aqua;
 }
-#footer{
+.footer{
     margin-top: 40px;
+    margin-bottom: 10px;
     color: rgb(128, 128, 128);
     font-weight: bold;
 }
@@ -64,8 +68,5 @@ thead{
 }
 .due{
     background-image: url('../img/monitor.jpg');
-}
-#titolo-monitor{
-    margin-top: 30px;
 }
 
