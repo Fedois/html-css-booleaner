@@ -29,3 +29,9 @@ main{
     font-size: 13px;
     color: grey;
 }
+#descrizione{
+    font-size: 12px;
+}
+.lorem{
+    background-color: yellow;
+}
